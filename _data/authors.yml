@@ -1,18 +1,14 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+  name        : "Mark Eberhart"
+  uri         : "https://chemistry.mines.edu/project/eberhart-mark/"
+  email       : "meberhar@mines.edu"
+  bio         : "Mark Eberhart was a professor of chemistry at the Colorado School of Mines. He founded the concept of gradient bundle analysis and continues to be a pioneer in the field of electron density analysis."
+  avatar      : "Eberhart_headshot_2019_cropped.jpg"
 
 Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  name        : "Tim Wilson"
+  email       : "twilson@mines.edu"
+  bio         : "Tim Wilson has a PhD in chemistry from Colorado School of Mines, where he studied under Mark Eberhart to develop the concept of gradient bundle analysis and software to implement it. He continues to work as a research scientist developing software for electron density analysis."
+  avatar      : "Tim bio pic.jpg"
