@@ -1,21 +1,19 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research Tools"
+permalink: /research-tools/
 author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
+This page showcases our computational tools for chemistry, biology, and materials science. Each tool includes detailed documentation, features, usage examples, and case studies.
+
+<!-- Conditional structure to handle categorized research tools -->
+{% if site.research_tool_category %}
+  {% for category in site.research_tool_category %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
+    {% for post in site.research-tools %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -27,10 +25,7 @@ author_profile: false
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% for post in site.research-tools reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
